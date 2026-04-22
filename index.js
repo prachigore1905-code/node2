@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Use port from environment (Jenkins), fallback if not set
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   //res.sendFile(path.join(__dirname, 'index.html'));
